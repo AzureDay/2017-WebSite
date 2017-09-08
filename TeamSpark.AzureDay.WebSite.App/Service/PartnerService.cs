@@ -184,6 +184,24 @@ namespace TeamSpark.AzureDay.WebSite.App.Service
 					LogoUrl = "https://azureday2017ua.blob.core.windows.net/images/logos/developex_logo.png",
 					WebUrl = "http://developex.com/",
 					PartnerType = PartnerType.Info | PartnerType.Workshop
+				},
+				new Partner
+				{
+					Id = "Dbbest",
+					Title = Localization.App.Service.Partners.Dbbest.Title,
+					Description = Localization.App.Service.Partners.Dbbest.Description.Replace(Environment.NewLine, "<br/>"),
+					LogoUrl = "https://azureday2017ua.blob.core.windows.net/images/logos/dbbest.png",
+					WebUrl = "https://www.dbbest.com/",
+					PartnerType = PartnerType.Info | PartnerType.Workshop
+				},
+				new Partner
+				{
+					Id = "Global Logic",
+					Title = Localization.App.Service.Partners.GL.Title,
+					Description = Localization.App.Service.Partners.GL.Description.Replace(Environment.NewLine, "<br/>"),
+					LogoUrl = "https://azureday2017ua.blob.core.windows.net/images/logos/gl.png",
+					WebUrl = "https://www.globallogic.com",
+					PartnerType = PartnerType.Info | PartnerType.Workshop
 				}
 			};
 		}

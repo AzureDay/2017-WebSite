@@ -65,6 +65,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Country.ru.resx</DependentUpon>
     </Compile>
+    <Compile Include="App\Service\Partners\GL.Designer.cs">
+      <DependentUpon>GL.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Service\Partners\Dbbest.Designer.cs">
+      <DependentUpon>Dbbest.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="App\Service\Partners\Developex.Designer.cs">
       <DependentUpon>Developex.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -1107,6 +1117,16 @@
     <EmbeddedResource Include="App\Service\Country.ru.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Country.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Service\Partners\GL.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Service\Partners\Dbbest.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dbbest.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="App\Service\Partners\Developex.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
