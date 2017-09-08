@@ -22,14 +22,14 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class OChorny_01 {
+    public class ENiedaszkowski_02 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OChorny_01() {
+        internal ENiedaszkowski_02() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics.OChorny_01", typeof(OChorny_01).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics.ENiedaszkowski_02", typeof(ENiedaszkowski_02).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,14 +61,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Let&apos;s discuss Site Reliability Engineering principles and practices applied to Software as Service application hosted in Azure. Such topics will be covered:
-        ///- Infrastructure as a Code
-        ///- Release Engineering
-        ///- Monitoring
-        ///- Chaos Engineering
-        ///- Disaster Recovery Plan
-        ///
-        ///Also, we&apos;ll discuss real production incidents and analyze real postmortems which will be useful for anyone who wants to leverage Azure in Prod..
+        ///   Looks up a localized string similar to Під час даної доповіді ми поговоримо про технології Microsoft Azure, що дозволяють забепечити безпеку даних та їх відновлення у разі пошкодження. Лекція носить оглядовий характер, тому буде цікава широкому колу слухачів, починаючи від розробників та адміністраторів, та закінчуючи керівниками та власниками бізнесу..
         /// </summary>
         public static string Description {
             get {
@@ -77,7 +70,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Site Reliability Engineering in Azure (part 1).
+        ///   Looks up a localized string similar to Безпека даних в Azure.
         /// </summary>
         public static string Title {
             get {

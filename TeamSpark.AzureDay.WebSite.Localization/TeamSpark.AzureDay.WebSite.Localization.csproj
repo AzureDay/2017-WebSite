@@ -500,6 +500,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ABoyko.resx</DependentUpon>
     </Compile>
+    <Compile Include="App\Service\Topics\ENiedaszkowski_02.Designer.cs">
+      <DependentUpon>ENiedaszkowski_02.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Service\Topics\ABoyko_01.Designer.cs">
+      <DependentUpon>ABoyko_01.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="App\Service\Topics\AMang_01.Designer.cs">
       <DependentUpon>AMang_01.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -507,6 +517,11 @@
     </Compile>
     <Compile Include="App\Service\Topics\DDurasau_01.Designer.cs">
       <DependentUpon>DDurasau_01.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App\Service\Topics\OChorny_02.Designer.cs">
+      <DependentUpon>OChorny_02.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -1472,6 +1487,14 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ABoyko.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="App\Service\Topics\ENiedaszkowski_02.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ENiedaszkowski_02.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Service\Topics\ABoyko_01.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ABoyko_01.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="App\Service\Topics\AMang_01.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AMang_01.Designer.cs</LastGenOutput>
@@ -1479,6 +1502,10 @@
     <EmbeddedResource Include="App\Service\Topics\DDurasau_01.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DDurasau_01.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App\Service\Topics\OChorny_02.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>OChorny_02.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="App\Service\Topics\VThavonekham_02.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

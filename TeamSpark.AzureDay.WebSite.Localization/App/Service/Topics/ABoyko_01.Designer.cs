@@ -22,14 +22,14 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class OChorny_01 {
+    public class ABoyko_01 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal OChorny_01() {
+        internal ABoyko_01() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics.OChorny_01", typeof(OChorny_01).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics.ABoyko_01", typeof(ABoyko_01).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,14 +61,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Let&apos;s discuss Site Reliability Engineering principles and practices applied to Software as Service application hosted in Azure. Such topics will be covered:
-        ///- Infrastructure as a Code
-        ///- Release Engineering
-        ///- Monitoring
-        ///- Chaos Engineering
-        ///- Disaster Recovery Plan
-        ///
-        ///Also, we&apos;ll discuss real production incidents and analyze real postmortems which will be useful for anyone who wants to leverage Azure in Prod..
+        ///   Looks up a localized string similar to Unfortunately, there are still a lot of projects where engineers deploy their apps using &quot;Right click -&gt; Deploy -&gt; Production&quot; approach. This is sad, but true. At some point we can face this just because no one knows how to configure a build server, how to automate deployment process. And, for some reason, a lot of engineers believe that it is some super complicated stuff. During my speech I will talk about general approaches for automating build, deployments and managing releases. After short talk we will  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Description {
             get {
@@ -77,7 +70,7 @@ namespace TeamSpark.AzureDay.WebSite.Localization.App.Service.Topics {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Site Reliability Engineering in Azure (part 1).
+        ///   Looks up a localized string similar to Build, deploy and manage your releases like a boss.
         /// </summary>
         public static string Title {
             get {

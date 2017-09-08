@@ -45,7 +45,7 @@ namespace TeamSpark.AzureDay.WebSite.App.Service
 
 			_speakers.Add(EWasilewski());
 			_speakers.Add(AShamray());
-			_speakers.Add(AVidishchev());
+			//_speakers.Add(AVidishchev());
 			_speakers.Add(JessicaEngstrom());
 
 			_speakers.Add(JimmyEngstrom());
@@ -719,29 +719,29 @@ namespace TeamSpark.AzureDay.WebSite.App.Service
 			};
 		}
 
-		public Speaker AVidishchev()
-		{
-			return new Speaker
-			{
-				Id = "AVidishchev",
-				FirstName = Localization.App.Service.Speaker.AVidishchev.FirstName,
-				LastName = Localization.App.Service.Speaker.AVidishchev.LastName,
-				Bio = Localization.App.Service.Speaker.AVidishchev.Bio.Replace(Environment.NewLine, "<br/>"),
-				Country = _countryService.Ukraine,
-				PhotoUrl = "https://azureday2017ua.blob.core.windows.net/images/avatars/AVidishchev.jpg",
-				FacebookUrl = "",
-				GitHubUrl = "",
-				GoogleUrl = "",
-				LinkedInUrl = "",
-				MsdnUrl = "",
-				MvpUrl = "",
-				TwitterUrl = "",
-				YouTubeUrl = "",
-				WebUrl = "",
-				CompanyName = "Ciklum",
-				JobTitle = "Azure MVP"
-			};
-		}
+		//public Speaker AVidishchev()
+		//{
+		//	return new Speaker
+		//	{
+		//		Id = "AVidishchev",
+		//		FirstName = Localization.App.Service.Speaker.AVidishchev.FirstName,
+		//		LastName = Localization.App.Service.Speaker.AVidishchev.LastName,
+		//		Bio = Localization.App.Service.Speaker.AVidishchev.Bio.Replace(Environment.NewLine, "<br/>"),
+		//		Country = _countryService.Ukraine,
+		//		PhotoUrl = "https://azureday2017ua.blob.core.windows.net/images/avatars/AVidishchev.jpg",
+		//		FacebookUrl = "",
+		//		GitHubUrl = "",
+		//		GoogleUrl = "",
+		//		LinkedInUrl = "",
+		//		MsdnUrl = "",
+		//		MvpUrl = "",
+		//		TwitterUrl = "",
+		//		YouTubeUrl = "",
+		//		WebUrl = "",
+		//		CompanyName = "Ciklum",
+		//		JobTitle = "Azure MVP"
+		//	};
+		//}
 
 		public Speaker JessicaEngstrom()
 		{

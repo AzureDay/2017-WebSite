@@ -118,16 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Description" xml:space="preserve">
-    <value>Let's discuss Site Reliability Engineering principles and practices applied to Software as Service application hosted in Azure. Such topics will be covered:
-- Infrastructure as a Code
-- Release Engineering
-- Monitoring
-- Chaos Engineering
-- Disaster Recovery Plan
-
-Also, we'll discuss real production incidents and analyze real postmortems which will be useful for anyone who wants to leverage Azure in Prod.</value>
+    <value>Під час даної доповіді ми поговоримо про технології Microsoft Azure, що дозволяють забепечити безпеку даних та їх відновлення у разі пошкодження. Лекція носить оглядовий характер, тому буде цікава широкому колу слухачів, починаючи від розробників та адміністраторів, та закінчуючи керівниками та власниками бізнесу.</value>
   </data>
   <data name="Title" xml:space="preserve">
-    <value>Site Reliability Engineering in Azure (part 1)</value>
+    <value>Безпека даних в Azure</value>
   </data>
 </root>
